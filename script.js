@@ -1,7 +1,6 @@
+
 var count = [];
 var secondsCount = 0;
-document.getElementById("start").addEventListener("click", start);
-
 
 var start = function(){
   addEvents();
@@ -20,6 +19,4 @@ function counter(){
   this.removeEventListener('click', counter);
 }
 
-function countDown(){
-  secondsCount--;
-}
+document.getElementById("start").addEventListener("click", start);
