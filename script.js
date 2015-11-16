@@ -1,5 +1,4 @@
 var timer;
-var count = [];
 var secondsLeft = 20;
 
 //Adds click events, resets count, sets timeout for alert, and changes button's 
