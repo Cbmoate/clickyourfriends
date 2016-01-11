@@ -12,9 +12,14 @@ img{
 
 .welcome{
   margin-bottom: 0;
+  text-align: center;
 }
 
 .howto{
   margin-top: 0;
   margin-bottom: 0; 
+}
+
+.btn{
+  text-align: center;
 }

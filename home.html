@@ -8,52 +8,97 @@
 <body>
   <div class="container-fluid">
     <div class="row-fluid">
-      <div class="col-md-12">
+      <div class="col-lg-offset col-md-10">
       <h3 class="welcome"> Welcome to the Click Your Friends Game</h3>
-      <br>
+      </div>
+    <div>
+    <div class="row-fluid">
+      <div class="col-md-12">
       <h5 class="howto">How to play: Once you click the start button you will be given 20 seconds to click on as many pictures as you can, but you can not click on the same picture more than once, good luck!</h5>
+      </div>
+    </div>
+    <div class="row-fluid">
+      <div class="col-sm-offset-6 col-lg-2">
       <button id="start" class="btn btn-primary" data-state="start">Start</button>
       </div>
     </div>
   </div>
+  <!--rules modal-->
+  <div class="modal fade" tabindex="-1" role="dialog">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+          <h4 class="modal-title">Welcome to the Click Your Friends Game</h4>
+        </div>
+        <div class="modal-body">
+          <p>How to play: Once you click the start button you will be given 20 seconds to click on as many pictures as you can, but you can not click on the same picture more than once, good luck!</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary">Save changes</button>
+        </div>
+      </div><!-- /.modal-content -->
+    </div><!-- /.modal-dialog -->
+  </div><!-- /.modal -->
+
+  <!--score modal-->
+  <div class="modal fade" tabindex="-1" role="dialog">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+          <h4 class="modal-title">Great Job!</h4>
+        </div>
+        <div class="modal-body">
+          <p></p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div><!-- /.modal-content -->
+    </div><!-- /.modal-dialog -->
+  </div><!-- /.modal -->
+
   <div class="container-fluid" id="facegrid">
     <div class="row-fluid">
-      <div class="col-sm-10">
-        <img class="col-sm-2 face" src="images/1.jpg">
-        <img class="col-sm-2 face" src="images/2.jpg">
-        <img class="col-sm-2 face" src="images/3.jpg">
-        <img class="col-sm-2 face" src="images/4.jpg">
-        <img class="col-sm-2 face" src="images/5.jpg">
+      <div class="col-xs-10">
+        <img class="col-xs-offset-2 col-xs-2 face" src="images/1.jpg">
+        <img class="col-xs-2 face" src="images/2.jpg">
+        <img class="col-xs-2 face" src="images/3.jpg">
+        <img class="col-xs-2 face" src="images/4.jpg">
+        <img class="col-xs-2 face" src="images/5.jpg">
     </div>
     </div>
     <div class="row-fluid">
-      <div class="col-sm-10">
-        <img class="col-sm-2 face" src="images/6.jpg">
-        <img class="col-sm-2 face" src="images/7.jpg">
-        <img class="col-sm-2 face" src="images/8.jpg">
-        <img class="col-sm-2 face" src="images/9.jpg">
-        <img class="col-sm-2 face" src="images/10.jpg">
+      <div class="col-xs-10">
+        <img class="col-xs-offset-2 col-xs-2 face" src="images/6.jpg">
+        <img class="col-xs-2 face" src="images/7.jpg">
+        <img class="col-xs-2 face" src="images/8.jpg">
+        <img class="col-xs-2 face" src="images/9.jpg">
+        <img class="col-xs-2 face" src="images/10.jpg">
     </div>
     </div>
     <div class="row-fluid">
-      <div class="col-sm-10">
-        <img class="col-sm-2 face" src="images/11.jpg">
-        <img class="col-sm-2 face" src="images/12.jpg">
-        <img class="col-sm-2 face" src="images/13.jpg">
-        <img class="col-sm-2 face" src="images/14.jpg">
-        <img class="col-sm-2 face" src="images/15.jpg">
+      <div class="col-xs-10">
+        <img class="col-xs-offset-2 col-xs-2 face" src="images/11.jpg">
+        <img class="col-xs-2 face" src="images/12.jpg">
+        <img class="col-xs-2 face" src="images/13.jpg">
+        <img class="col-xs-2 face" src="images/14.jpg">
+        <img class="col-xs-2 face" src="images/15.jpg">
     </div>
     </div>
     <div class="row-fluid">
-      <div class="col-sm-10">
-        <img class="col-sm-2 face" src="images/16.jpg">
-        <img class="col-sm-2 face" src="images/17.jpg">
-        <img class="col-sm-2 face" src="images/18.jpg">
-        <img class="col-sm-2 face" src="images/19.png">
-        <img class="col-sm-2 face" src="images/20.jpg">
+      <div class="col-xs-10">
+        <img class="col-xs-offset-2 col-xs-2 face" src="images/16.jpg">
+        <img class="col-xs-2 face" src="images/17.jpg">
+        <img class="col-xs-2 face" src="images/18.jpg">
+        <img class="col-xs-2 face" src="images/19.png">
+        <img class="col-xs-2 face" src="images/20.jpg">
       </div>
     </div>
   </div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
   <script type="text/javascript" src="script.js"></script>
 </body>
 </html>
